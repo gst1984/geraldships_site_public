@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Blog on Gerald Stockinger</title>
-    <link>https://gst1984.github.io/geraldships_site/blog/</link>
+    <link>https://geraldships.com/blog/</link>
     <description>Recent content in Blog on Gerald Stockinger</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <atom:link href="https://gst1984.github.io/geraldships_site/blog/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://geraldships.com/blog/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
