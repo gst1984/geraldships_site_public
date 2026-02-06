@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta name="generator" content="Hugo 0.155.2">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerald Stockinger - Enthusiastic about Software, Data Engineering & Product</title>
+    <meta name="description" content="Gerald Stockinger — software engineer and product builder based in Vienna. CTO and co-founder of easy-connect.">
+    <meta property="og:title" content="Gerald Stockinger — Software Engineer & Product Builder">
+    <meta property="og:description" content="Software engineer and product builder based in Vienna. CTO and co-founder of easy-connect.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://gst1984.github.io/">
+    <meta property="og:image" content="https://gst1984.github.io/geraldships_site/gerald.jpg">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Gerald Stockinger — Software Engineer & Product Builder">
+    <meta name="twitter:description" content="Software engineer and product builder based in Vienna. CTO and co-founder of easy-connect.">
+    <meta name="twitter:image" content="https://gst1984.github.io/geraldships_site/gerald.jpg">
+    <style>
+        :root {
+            --bg: #fafaf9;
+            --text: #1a1a1a;
+            --muted: #6b6b6b;
+            --accent: #2d5a27;
+            --accent-light: #e8f0e6;
+            --border: #e5e5e3;
+            --card-bg: #ffffff;
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            font-family: 'Georgia', 'Times New Roman', serif;
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.7;
+            font-size: 17px;
+        }
+
+        .wrapper {
+            max-width: 720px;
+            margin: 0 auto;
+            padding: 4rem 1.5rem 6rem;
+        }
+
+         
+        header {
+            margin-bottom: 4rem;
+        }
+
+        .header-top {
+            display: flex;
+            align-items: center;
+            gap: 1.5rem;
+            margin-bottom: 1.8rem;
+        }
+
+        .header-photo {
+            width: 90px;
+            height: 90px;
+            border-radius: 50%;
+            object-fit: cover;
+            flex-shrink: 0;
+            border: 2px solid var(--border);
+        }
+
+        header h1 {
+            font-size: 1.8rem;
+            font-weight: 400;
+            letter-spacing: -0.01em;
+            margin-bottom: 0.3rem;
+        }
+
+        header .location {
+            font-size: 0.9rem;
+            color: var(--muted);
+            font-style: italic;
+        }
+
+        header .intro {
+            font-size: 1.05rem;
+            color: #333;
+        }
+
+        header .intro strong {
+            font-weight: 600;
+        }
+
+        header .intro strong a {
+            color: var(--text);
+            text-decoration: none;
+            border-bottom: 1px solid var(--border);
+            transition: border-color 0.2s, color 0.2s;
+        }
+
+        header .intro strong a:hover {
+            color: var(--accent);
+            border-color: var(--accent);
+        }
+
+         
+        section {
+            margin-bottom: 3.5rem;
+        }
+
+        section h2 {
+            font-size: 0.8rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.12em;
+            color: var(--accent);
+            margin-bottom: 1.5rem;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+        }
+
+         
+        .focus-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 1rem;
+        }
+
+        .focus-card {
+            background: var(--card-bg);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            padding: 1.3rem;
+        }
+
+        .focus-card h3 {
+            font-size: 0.95rem;
+            font-weight: 600;
+            margin-bottom: 0.4rem;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+        }
+
+        .focus-card p {
+            font-size: 0.88rem;
+            color: var(--muted);
+            line-height: 1.5;
+        }
+
+         
+        .story p {
+            font-size: 0.98rem;
+            color: #444;
+            margin-bottom: 1.2rem;
+        }
+
+        .story strong {
+            font-weight: 600;
+            color: var(--text);
+        }
+
+        .story strong a {
+            color: var(--text);
+            text-decoration: none;
+            border-bottom: 1px solid var(--border);
+            transition: border-color 0.2s, color 0.2s;
+        }
+
+        .story strong a:hover {
+            color: var(--accent);
+            border-color: var(--accent);
+        }
+
+         
+        .clients {
+            font-size: 0.92rem;
+            color: var(--muted);
+            line-height: 1.9;
+        }
+
+        .clients span {
+            white-space: nowrap;
+        }
+
+         
+        .beyond {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 1.5rem;
+        }
+
+        .beyond-item {
+            padding: 0.2rem 0;
+        }
+
+        .beyond-item h3 {
+            font-size: 0.95rem;
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+        }
+
+        .beyond-item p {
+            font-size: 0.88rem;
+            color: #555;
+            line-height: 1.6;
+        }
+
+        .beyond-item .beyond-img {
+            width: 100%;
+            border-radius: 6px;
+            margin-bottom: 0.7rem;
+            aspect-ratio: 4/3;
+            object-fit: cover;
+        }
+
+        .travel-gallery {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 0.5rem;
+            margin-bottom: 0.7rem;
+        }
+
+        .travel-gallery img {
+            width: 100%;
+            border-radius: 6px;
+            aspect-ratio: 1/1;
+            object-fit: cover;
+            object-position: center top;
+        }
+
+         
+        .connect-links {
+            list-style: none;
+            display: flex;
+            gap: 1.8rem;
+            flex-wrap: wrap;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            font-size: 0.92rem;
+        }
+
+        .connect-links a {
+            color: var(--text);
+            text-decoration: none;
+            border-bottom: 1px solid var(--border);
+            padding-bottom: 2px;
+            transition: border-color 0.2s, color 0.2s;
+        }
+
+        .connect-links a:hover {
+            color: var(--accent);
+            border-color: var(--accent);
+        }
+
+         
+        footer {
+            margin-top: 4rem;
+            padding-top: 2rem;
+            border-top: 1px solid var(--border);
+            font-size: 0.82rem;
+            color: var(--muted);
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+        }
+
+         
+        @media (max-width: 600px) {
+            .wrapper { padding: 2.5rem 1.2rem 4rem; }
+            header h1 { font-size: 1.5rem; }
+            .focus-grid { grid-template-columns: 1fr; }
+            .beyond { grid-template-columns: 1fr; }
+            .connect-links { flex-wrap: wrap; gap: 1rem 1.5rem; }
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <div class="header-top">
+                <img src="/geraldships_site/gerald.jpg" alt="Gerald Stockinger" class="header-photo">
+                <div>
+                    <h1>Gerald Stockinger</h1>
+                    <div class="location">Vienna, Austria</div>
+                </div>
+            </div>
+            <div class="intro">
+                I'm a software engineer and product builder based in Vienna. I'm drawn to hard integration problems, data engineering, and making technology work. As <strong>CTO and co-founder of <a href="https://easy-connect.io" target="_blank" rel="noopener">easy-connect</a></strong>, I lead the development of mobile apps that connect cultural institutions with their audiences — whether it's the <strong><a href="https://www.easy-connect.io/clients/metropolitan-opera" target="_blank" rel="noopener">Metropolitan Opera App</a></strong> or the <strong><a href="https://www.easy-connect.io/clients/die-classiccard-app" target="_blank" rel="noopener">Classic Card App</a></strong> in Berlin.
+            </div>
+        </header>
+
+        <section>
+            <h2>Connect</h2>
+            <ul class="connect-links">
+                
+                <li><a href="https://www.linkedin.com/in/geraldstockinger/" target="_blank" rel="noopener">LinkedIn</a></li>
+                <li><a href="https://bsky.app/profile/geraldships-com.bsky.social" target="_blank" rel="noopener">Bluesky</a></li>
+                <li><a href="https://x.com/geraldships_com" target="_blank" rel="noopener">X</a></li>
+                <li><a href="https://github.com/gst1984" target="_blank" rel="noopener">GitHub</a></li>
+                <li><a href="#" id="email-link">Email</a></li>
+            </ul>
+            <script>
+                (function() {
+                    var u = 'hello', d = 'geraldships.com';
+                    var el = document.getElementById('email-link');
+                    el.href = 'mailto:' + u + '@' + d;
+                })();
+            </script>
+        </section>
+
+        <section>
+            <h2>What I Focus On</h2>
+            <div class="focus-grid">
+                <div class="focus-card">
+                    <h3>Product &amp; Technology</h3>
+                    <p>Taking products from zero to scale. I care about architecture decisions that hold up three years later.</p>
+                </div>
+                <div class="focus-card">
+                    <h3>Data &amp; Analytics</h3>
+                    <p>Data engineering and analytics — building pipelines and tools that turn raw data into decisions."</p>
+                </div>
+                <div class="focus-card">
+                    <h3>Integration</h3>
+                    <p>Connecting ticketing systems, CRM platforms, and marketing tools into seamless digital experiences.</p>
+                </div>
+                <div class="focus-card">
+                    <h3>Strategy</h3>
+                    <p>Bridging the gap between technology possibilities and business needs — from roadmap to execution.</p>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h2>How I Got Here</h2>
+            <div class="story">
+                <p>I moved from Salzburg to Vienna in 2003 to study software engineering at <strong>TU Wien</strong>, and somehow never left. My first real job threw me into business intelligence consulting at Harrer &amp; Partner — crunching data for universities, car companies, anyone who'd have me. But it was a project in the cultural sector that changed everything. Turns out, helping a theater understand its audience was more interesting to me than optimizing supply chains.</p>
+                <p>That thread kept pulling. I went self-employed in 2013, dove deeper into analytics for arts organizations through <strong><a href="https://kulturplanner.com" target="_blank" rel="noopener">Kulturplanner</a></strong> — eventually becoming CTO before moving to the advisory board. In 2014, I co-founded what would become <strong><a href="https://easy-connect.io" target="_blank" rel="noopener">easy-connect</a></strong> — a mobile platform for arts and culture organizations that somehow kept growing.</p>
+                <p>Along the way, I spent a few years as CTO at <strong><a href="https://idagio.com" target="_blank" rel="noopener">IDAGIO</a></strong>, the classical music streaming platform.</p>
+                <p>The common thread? I keep ending up at the intersection of technology and culture. It wasn't planned — it just turned out to be where I'm most useful and most happy.</p>
+            </div>
+        </section>
+
+
+        <section>
+            <h2>Beyond Work</h2>
+            <div class="beyond">
+                <div class="beyond-item">
+                    <h3>🎲 Board Games</h3>
+                    <img src="/geraldships_site/pandemic.jpg" alt="Pandemic World Championship runner-up" class="beyond-img">
+                    <p>I love anything strategic — from engine builders to heavy euros. Stefan and I once made it to runner-up at the Pandemic World Championship — a cooperative board game and our all-time favourite — which remains one of our proudest and nerdiest moments.</p>
+                </div>
+                <div class="beyond-item">
+                    <h3>🌍 Travel</h3>
+                    <div class="travel-gallery">
+                        <img src="/geraldships_site/iceland.jpg" alt="Road trip in Iceland">
+                        <img src="/geraldships_site/persepolis.jpg" alt="Persepolis, Iran">
+                        <img src="/geraldships_site/rwanda.jpg" alt="Mountain gorilla in Rwanda">
+                    </div>
+                    <p>I'm happiest when I'm somewhere unfamiliar. Highlights include a road trip around Iceland, tracking mountain gorillas in the wild in Rwanda, and wandering through ancient Persepolis on a trip across Iran.</p>
+                </div>
+                <div class="beyond-item">
+                    <h3>🍷 Food &amp; Wine</h3>
+                    <div class="travel-gallery">
+                        <img src="/geraldships_site/spices.jpg" alt="Spice collection">
+                        <img src="/geraldships_site/dinner.jpg" alt="A good dinner">
+                        <img src="/geraldships_site/fernblick.jpg" alt="Gerald and Stefan">
+                    </div>
+                    <p>Enthusiastic home cook, orange wine aficionado, and firm believer that a good meal is the best way to end any day — or start a conversation.</p>
+                </div>
+                <div class="beyond-item">
+                    <h3>⛷️ Mountains</h3>
+                    <img src="/geraldships_site/mountains.jpg" alt="Hiking in the Austrian Alps" class="beyond-img">
+                    <p>I grew up in Salzburg, so skiing and mountains are basically in my DNA. Vienna is wonderful — but I still need my alpine fix.</p>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            &copy; 2026 Data Strategy GmbH, Gerald Stockinger, 1060 Vienna, Austria · <a href="/geraldships_site/imprint/" style="color: var(--muted); text-decoration: none; border-bottom: 1px solid var(--border);">Imprint & Privacy</a>
+        </footer>
+    </div>
+    <script data-goatcounter="https://geraldships.goatcounter.com/count"
+        async src="//gc.zgo.at/count.js"></script>
+</body>
+</html>

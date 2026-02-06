@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerald ships! Blog: Musings about Software, Data Engineering & Product</title>
+    <meta name="description" content="Blog posts by Gerald Stockinger on technology, data, product, and the arts.">
+    <meta property="og:title" content="Gerald ships! Blog">
+    <meta property="og:description" content="Blog posts by Gerald Stockinger on technology, data, product, and the arts.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://gst1984.github.io/geraldships_site/blog/">
+    <meta property="og:image" content="https://gst1984.github.io/geraldships_site/gerald.jpg">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Gerald ships! Blog">
+    <meta name="twitter:description" content="Blog posts by Gerald Stockinger on technology, data, product, and the arts.">
+    <meta name="twitter:image" content="https://gst1984.github.io/geraldships_site/gerald.jpg">
+    <style>
+    :root {
+        --bg: #fafaf9;
+        --text: #1a1a1a;
+        --muted: #6b6b6b;
+        --accent: #2d5a27;
+        --accent-light: #e8f0e6;
+        --border: #e5e5e3;
+        --card-bg: #ffffff;
+    }
+
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+        font-family: 'Georgia', 'Times New Roman', serif;
+        background: var(--bg);
+        color: var(--text);
+        line-height: 1.7;
+        font-size: 17px;
+    }
+
+    .wrapper {
+        max-width: 720px;
+        margin: 0 auto;
+        padding: 4rem 1.5rem 6rem;
+    }
+
+    a {
+        color: var(--accent);
+        text-decoration: none;
+        border-bottom: 1px solid var(--border);
+        transition: border-color 0.2s, color 0.2s;
+    }
+
+    a:hover {
+        border-color: var(--accent);
+    }
+
+    footer {
+        margin-top: 4rem;
+        padding-top: 2rem;
+        border-top: 1px solid var(--border);
+        font-size: 0.82rem;
+        color: var(--muted);
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    }
+
+    @media (max-width: 600px) {
+        .wrapper { padding: 2.5rem 1.2rem 4rem; }
+    }
+</style>
+
+    <style>
+        .blog-nav {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            font-size: 0.85rem;
+            margin-bottom: 3rem;
+            display: flex;
+            gap: 1.5rem;
+        }
+
+        .blog-nav a {
+            color: var(--muted);
+            text-decoration: none;
+            border-bottom: none;
+            transition: color 0.2s;
+        }
+
+        .blog-nav a:hover {
+            color: var(--accent);
+        }
+
+        .blog-title {
+            font-size: 1.8rem;
+            font-weight: 400;
+            letter-spacing: -0.01em;
+            margin-bottom: 2.5rem;
+        }
+
+        .post-list {
+            list-style: none;
+        }
+
+        .post-list li {
+            margin-bottom: 2.5rem;
+            display: flex;
+            gap: 1.2rem;
+            align-items: flex-start;
+        }
+
+        .post-list-thumb {
+            width: 120px;
+            height: 80px;
+            object-fit: cover;
+            border-radius: 6px;
+            flex-shrink: 0;
+        }
+
+        .post-list-content {
+            flex: 1;
+            min-width: 0;
+        }
+
+        .post-list-date {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            font-size: 0.82rem;
+            color: var(--muted);
+            display: block;
+            margin-bottom: 0.2rem;
+        }
+
+        .post-list-title {
+            font-size: 1.1rem;
+            font-weight: 600;
+        }
+
+        .post-list-title a {
+            color: var(--text);
+            text-decoration: none;
+            border-bottom: 1px solid var(--border);
+            transition: border-color 0.2s, color 0.2s;
+        }
+
+        .post-list-title a:hover {
+            color: var(--accent);
+            border-color: var(--accent);
+        }
+
+        .post-list-excerpt {
+            font-size: 0.92rem;
+            color: var(--muted);
+            margin-top: 0.3rem;
+            line-height: 1.5;
+        }
+
+        .empty-state {
+            color: var(--muted);
+            font-style: italic;
+            font-size: 0.95rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <nav class="blog-nav">
+            <a href="/geraldships_site/">Home</a>
+            <a href="/geraldships_site/blog/">Blog</a>
+        </nav>
+
+        <h1 class="blog-title">Blog</h1>
+
+        
+        <p class="empty-state">No posts yet. Check back soon.</p>
+        
+
+        <footer>
+            &copy; 2026 Data Strategy GmbH, Gerald Stockinger, 1060 Vienna, Austria · <a href="/geraldships_site/imprint/" style="color: var(--muted); text-decoration: none; border-bottom: 1px solid var(--border);">Imprint & Privacy</a>
+        </footer>
+    </div>
+    <script data-goatcounter="https://geraldships.goatcounter.com/count"
+        async src="//gc.zgo.at/count.js"></script>
+</body>
+</html>
